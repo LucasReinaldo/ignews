@@ -1,0 +1,45 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  height: calc(100vh - 8rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero {
+  max-width: 56rem;
+
+  .welcome {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .mainHeader {
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    font-weight: 900;
+    margin-top: 4rem;
+  }
+
+  .highlightText {
+    color: var(--cyan-500);
+  }
+
+  .mainContent {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-top: 2.4rem;
+  }
+
+  .subscription {
+    color: var(--cyan-500);
+    display: block;
+    font-weight: 600;
+  }
+
+  .subscribeButton {
+    margin-top: 3.2rem;
+  }
+}
